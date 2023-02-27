@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+h2{
+    font-size: 34px;
+}
+
+body{
+    margin:0;
+    color: #070707;
+    font-family: 'Gilroy-Bold';
+    background-color: #FFFFFF;;
+    font-size: 18px;
+}
+
+.main-header-nav{
+    width:945px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.container{
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(130, 130, 130, 1) ;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigation-item a{
+    text-decoration: none;
+    color:#070707;
+}
+
+.navigation-item :hover{
+    color: #828282;
+}
+
+.home{
+    width:945px;
+    margin: 0 auto;
+    margin-bottom:105px;
+}
+
+.home-text{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 30px;
+    align-items: flex-end;
+}
+
+.home-text-item:first-child{
+    width:124px;
+    margin-right: 297px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.home-text-item:nth-child(2){
+    width:155px;
+    font-family: 'Gilroy-Medium';
+}
+
+.home-text-item:last-child{
+    margin-left: auto;
+    text-orientation: sideways;
+    font-size: 16px;
+}
+
+.home-img{
+    display: block;
+}
+
+.back-about-me{
+    background-color: #F6F6F6;
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 107px;
+    margin-bottom: 91px;
+}
+
+.about-me{
+    text-align: center;
+    width:485px;
+    margin: 0 auto;
+}
+
+.about-me h2{
+    margin-bottom: 18px;
+    line-height: 42px;
+    font-size: 34px;
+}
+
+.about-me p{
+    margin-bottom: 40px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.about-me p:last-child{
+    margin-bottom: 91px;
+}
+
+.skills{
+    width:945px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 110px;
+}
+
+.skills h2{
+    margin-bottom: 69px;
+}
+
+.text-skills{
+    margin-bottom: 84px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+}
+.programs{
+    width:945px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.rating{
+    list-style: none;
+    display: flex;
+    gap:9px;
+    font-size: 26px;
+}
+
+.star{
+    color:rgba(229, 229, 229, 1);
+}
+
+.name-item{
+    margin-top: 23px;
+    margin-bottom: 42px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+.name-item-figma{
+    margin-top: 24px;
+    margin-bottom: 58px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #828282;
+}
+
+.icon-block{
+    display: inline-block;
+    width:90px;
+    justify-content: center;
+}
+
+.portfolio{
+    background-color: #F6F6F6;
+    padding-top:113px;
+}
+
+.portfolio h2{
+    margin-bottom:47px;
+    text-align: center;
+    font-size: 34px;
+}
+
+.portf-items{
+    margin:0 auto;
+    width:938px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.portf-img{
+    margin-bottom: 45px;
+}
+
+.portf-items p{
+    margin-bottom: 100px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.contacts{
+    margin:0 auto;
+    width:244px;
+    margin-top: 115px;
+    margin-bottom: 123px;
+}
+
+.contacts h2, .contacts p{
+    text-align: center;
+}
+
+.contacts p{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.link-social{
+    display: flex;
+    gap:70px;
+    list-style: none;
+    justify-content: center;  
+}
+
+.contacts-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+
+.contacts-items h2{
+    margin-bottom: 20px;
+}
+
+.contacts-items p{
+    margin-bottom: 30px;
+}
+
+.button-message{
+    border-radius: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width:180px;
+    color: rgba(255, 255, 255, 1);
+    background-color: #070707;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.last-text{
+    margin-top: 45px;
+    color:rgba(130, 130, 130, 1);
+    font-size: 14px;
+    font-family: 'Gilroy-Medium';
+    line-height: 17px;
+}
